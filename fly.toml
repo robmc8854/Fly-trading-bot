@@ -1,0 +1,18 @@
+app = "qullamaggie-bot"
+primary_region = "lhr"
+
+[build]
+
+[env]
+  TELEGRAM_TOKEN = "8272225940:AAGhXTu3eit5m9Bh7EdO7DYlvWTbFnhrmu4"
+  TELEGRAM_CHAT_ID = "688830637"
+  ACCOUNT_SIZE = "100000"
+  TESTING_MODE = "True"
+
+[processes]
+  app = "python bot_optimized.py"
+
+[[vm]]
+  cpu_kind = "shared"
+  cpus = 1
+  memory_mb = 256
